@@ -8,6 +8,7 @@ header {
     font-size: 24px;
     display: flex;
     justify-content: space-around;
+    background-color: #1F2937;
 
 }
 
@@ -22,22 +23,32 @@ header {
 }
 
 .background1 {
+    
     background-color: #1F2937;
+    display: flex;
+    flex: wrap;
+    justify-content: space-around;
+    
+    
     
 }
 
 h1 {
-    margin-top: 128px;
+    margin-top: 0;
     display: flex;
     margin-left: 96px;
 }
 
-.img{
-    display: flex;
-    justify-content: space-around;
-}
+
+
 
 .placeholder {
-    background-color: #E5E7EB;
-    color: #F9FaF8;
+    background-color: darkgrey;
+    color: #E5E7EB;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
