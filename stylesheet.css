@@ -27,9 +27,10 @@ header {
     
     background-color: #1F2937;
     display: flex;
+    /* flex-direction: column; */
     flex: wrap;
-    padding-left: 120px;
-    padding-right: 220px;
+    gap: 100px;
+    justify-content: center;
     
     
     
@@ -37,11 +38,11 @@ header {
     
 }
 
-h1 {
+/* h1 {
     margin-top: 0;
     display: flex;
     margin-left: 96px;
-}
+} */
 
 
 
@@ -50,18 +51,18 @@ h1 {
     background-color: darkgrey;
     color: #E5E7EB;
     width: 500px;
-    height: 200px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
     
 }
 
 .first {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    
+    padding-bottom: 100px;
+    width: 470px;
     
 }
 
@@ -74,4 +75,16 @@ h1 {
 .first-subtext {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.first-button {
+    color: #F9FaF8;
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-radius: 8px;
+    padding: 0px;
+    width: 120px;
+    height: 40px;
+    font-size: medium;
+    font-weight: 700;
 }
