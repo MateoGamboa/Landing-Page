@@ -177,4 +177,57 @@ header {
     margin-top: 0px;
 }
 
+.background4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth {
+    width: 1000px;
+    height: 140px;
+    margin: 70px 100px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border-color: #3882F6;
+    font-size: 18px;
+    gap: 10px;
+}
+
+.fourth-header {
+    font-weight: 700;
+    color:#F9FaF8;
+    margin: 0;
+    
+    
+}
+
+.fourth-subtext {
+    color: #E5E7EB;
+    margin: 0px;
+    display: flex;
+}
+
+.second-button {
+    padding:5px 30px;
+    color:#F9FAF8;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: 2px solid #F9FAF8;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.fourth-text{
+    
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-left: 0;
+    
+}
 
