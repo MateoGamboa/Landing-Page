@@ -52,7 +52,7 @@ header {
 
 
 .placeholder {
-    background-color: darkgrey;
+    background-color: gray;
     color: #E5E7EB;
     width: 500px;
     height: 250px;
@@ -99,6 +99,7 @@ header {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
+    padding-top: 15px;
 }
 
 .image {
@@ -129,14 +130,51 @@ header {
     align-items: center;
     width: 160px;
     height: 320px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
+    text-align: center;
 }
 
 .second-subtext {
-    color: darkgrey;
+    color: gray;
+    margin-top: 10px;
     font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 170px;
+    height: 200px;
+    
     
 }
+
+.third {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+    flex-direction: column;
+    
+}
+
+.quote {   
+    display: flex;
+    font-weight: 300;
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+}
+
+.quoted,
+.quote {
+    color: #1F2937;
+    width: 800px;
+}
+
+.quoted {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+
